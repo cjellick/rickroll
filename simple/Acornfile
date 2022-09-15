@@ -1,0 +1,18 @@
+containers: {
+	mycon1: {
+		image: "nginx"
+		ports: {
+			publish: "80/http"
+		}
+		scale: 1
+		files: {
+			// Simple index.html file
+			"/usr/share/nginx/html/index.html": "<h2>Demo ${args.}</h2><img src='https://c.tenor.com/x8v1oNUOmg4AAAAd/rickroll-roll.gif'/> "
+		}
+	}
+}
+
+args: {
+	// App version
+	version: "1"
+}
