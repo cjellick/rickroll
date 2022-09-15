@@ -7,12 +7,12 @@ containers: {
 		scale: 1
 		files: {
 			// Simple index.html file
-			"/usr/share/nginx/html/index.html": "<h2>Demo \(args.version)</h2><img src='https://c.tenor.com/x8v1oNUOmg4AAAAd/rickroll-roll.gif'/> "
+			"/usr/share/nginx/html/index.html": "<h2>Version: \(args.version)</h2><img src='https://c.tenor.com/x8v1oNUOmg4AAAAd/rickroll-roll.gif'/> "
 		}
 	}
 }
 
 args: {
 	// App version
-	version: "1"
+	version: "v1.0.0"
 }
