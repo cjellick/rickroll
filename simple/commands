@@ -1,0 +1,2 @@
+acorn build -t docker.io/cjellick/simple-demo:v1.0 .
+acorn push docker.io/cjellick/simple-demo:v1.0
